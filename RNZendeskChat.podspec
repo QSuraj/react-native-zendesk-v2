@@ -23,4 +23,5 @@ Pod::Spec.new do |s|
   s.dependency 'ZendeskMessagingSDK', '~> 3.8.0'
   s.dependency 'ZendeskChatSDK','~>2.9'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
